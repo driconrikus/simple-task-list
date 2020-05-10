@@ -4,10 +4,10 @@ This is a simple task list CRUD app made using the MEVN stack.
 
 # Requirements:
 
-A web browser
-Nodejs ^12
-Npm ^6
-MongoDB
+* A web browser
+* Nodejs ^12
+* Npm ^6
+* MongoDB
 
 # How to run:
 
