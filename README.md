@@ -1,6 +1,6 @@
-# simple-task-list
+# Simple-Task-List
 
-Simple Task List using the MEVN(MongoDB, Express, Vue.js, Node.js) framework.
+This is a simple task list CRUD app made using the MEVN stack.
 
 # Requirements:
 
