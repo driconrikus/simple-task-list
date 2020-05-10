@@ -1,6 +1,6 @@
 # Simple-Task-List
 
-This is a simple task list CRUD app made using the MEVN stack.
+This is a simple task list CRUD app made using the MEVN stack and REST APIs.
 
 # Requirements:
 
