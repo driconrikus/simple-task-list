@@ -1,10 +1,10 @@
 <template>
 <div>
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-dark bg-dark d-flex justify-content-center">
     <a href="/" class="navbar-brand">Simple Task List</a>
 </nav>
 
-<div class="container">
+<div class="container d-flex justify-content-center">
     <div class="row pt-5">
         <div class="col-md-5">
             <div class="card">
@@ -23,12 +23,12 @@
                             v-model="task.description"></textarea>
                         </div>
                         <template v-if="edit === false">
-                            <button class="btn btn-primary btn-block">
+                            <button class="btn btn-outline-primary btn-block">
                                 Send
                             </button>
                         </template>
                         <template v-else>
-                            <button class="btn btn-primary btn-block">
+                            <button class="btn btn-outline-primary btn-block">
                                 Update
                                 </button>
                         </template>
@@ -49,10 +49,10 @@
                             <td>{{task.title}}</td>
                             <td>{{task.description}}</td>
                             <td>
-                                <button @click="deleteTask(task._id)" class="btn btn-danger">
+                                <button @click="deleteTask(task._id)" class="btn btn-outline-danger">
                                     Delete
                                 </button>
-                                <button @click="editTask(task._id)" class="btn btn-secondary">
+                                <button @click="editTask(task._id)" class="btn btn-outline-secondary">
                                     Edit
                                 </button>
                                 </td>
